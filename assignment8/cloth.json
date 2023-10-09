@@ -1,0 +1,47 @@
+{
+	"top1": {
+		"brandname": "A.K.O.O Clothing",
+		"price": "200",
+		"pic": "top1.jpg"
+	},
+	"top2": {
+		"brandname": "B.K.T Clothing",
+		"price": "500",
+		"pic": "top2.jpg"
+	},
+	"top3": {
+		"brandname": "A.B.C Clothing",
+		"price": "700",
+		"pic": "top3.jpg"
+	},
+	"top4": {
+		"brandname": "D.E.F Clothing",
+		"price": "800",
+		"pic": "top4.jpg"
+	},
+	"top5": {
+		"brandname": "G.H.I Clothing",
+		"price": "900",
+		"pic": "top5.jpg"
+	},
+	"top6": {
+		"brandname": "J.K.L Clothing",
+		"price": "1100",
+		"pic": "top6.jpg"
+	},
+	"top7": {
+		"brandname": "M.N.O Clothing",
+		"price": "1300",
+		"pic": "top7.jpg"
+	},
+	"top8": {
+		"brandname": "P.Q.R Clothing",
+		"price": "1500",
+		"pic": "top8.jpg"
+	},
+	"top9": {
+		"brandname": "S.T.U Clothing",
+		"price": "1700",
+		"pic": "top9.jpg"
+	}
+}

@@ -1,0 +1,160 @@
+ul {
+	text-align: left;
+	font-size: 20px;
+	/* display: inline-block; */
+}
+
+#cooking_pic {
+	width: 20%;
+	border: 8px dashed lightblue;
+	border-radius: 200px;
+	vertical-align: middle;
+}
+
+.pic_cooking {
+	width: 80%;
+	border-radius: 80px;
+}
+.pic_cooking2 {
+	width: 30%;
+	border-radius: 80px;
+}
+.pic_cooking3 {
+	width: 50%;
+	border-radius: 20px;
+}
+div{
+	text-align: center;
+}
+div>h1 {
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(181, 140, 86);
+	display: inline-block;
+}
+
+div>h2 {
+	font-weight: bold;
+	color: rgb(181, 140, 86);
+}
+
+body {
+	background-color: peachpuff;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+	grid-gap: 10px;
+}
+
+.grid-container>div {
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+}
+
+#header {
+	grid-column: 1 / span 3;
+	background-color: antiquewhite;
+}
+
+#left {
+	grid-column: 1 / span 1;
+	background-color: antiquewhite;
+}
+
+#main {
+	grid-column: 2 / span 1;
+	background-color: antiquewhite;
+}
+
+#right {
+	grid-column: 3 / span 1;
+	background-color: antiquewhite;
+}
+
+#footer {
+	grid-column: 1 / span 3;
+	background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto 50%;
+		grid-gap: 10px;
+	}
+
+	.grid-container>div {
+		border: 1px solid black;
+		font-size: 20px;
+		text-align: center;
+		background-color: white;
+	}
+	.pic_cooking2 {
+		width: 100%;
+		border-radius: 80px;
+	}
+
+	#header {
+		grid-column: 1 / span 2;
+		background-color: antiquewhite;
+	}
+
+	#menu {
+		grid-column: 1 / span 1;
+		background-color: antiquewhite;
+	}
+
+	#main {
+		grid-column: 2 / span 1;
+		background-color: antiquewhite;
+	}
+
+	#right {
+		grid-column: 1 / span 2;
+		background-color: antiquewhite;
+	}
+
+	#footer {
+		grid-column: 1 / span 2;
+		background-color: antiquewhite;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns:auto;
+		grid-gap: 10px;
+	}
+
+	.grid-container>div {
+		border: 1px solid black;
+		font-size: 20px;
+		text-align: center;
+		background-color: white;
+	}
+
+	#header {
+		grid-column: 1 / span 1;
+	}
+
+	#menu {
+		grid-column: 1 / span 1;
+	}
+
+	#main {
+		grid-column: 1 / span 1;
+	}
+
+	#right {
+		grid-column: 1 / span 1;
+	}
+
+	#footer {
+		grid-column: 1 / span 1;
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"personal":{
+		"pic" : "pic/me.jpg",
+		"name":"Patcharapon Praykasin",
+		"Birthday" : "23/09/2002",
+		"Education1" : "Primary education : visessuksa",
+		"Education2" : "Middle school : Hua Hin Vitthayalai",
+		"Education3" : "High school : Tharnpanya",
+		"Education4" : "Current : King Mongkut's University of Technology Thonburi"
+	},
+	"hob1": {
+		"hobby": "draw a picture",
+		"pic": "pic/hob1.png"
+	},
+	"hob2": {
+		"hobby": "read a novel",
+		"pic": "pic/hob2.png"
+	},
+	"hob3": {
+		"hobby": "play a game",
+		"pic": "pic/hob3.png"
+	},
+    "skill1": {
+		"skill": "drawing",
+		"pic": "pic/skill1.png"
+	},
+	"skill2": {
+		"skill": "coding",
+		"pic": "pic/skill2.png"
+	},
+	"skill3": {
+		"skill": "Time management",
+		"pic": "pic/skill3.png"
+	},
+    "interest1": {
+		"interest": "character design",
+		"pic": "pic/interest1.png"
+	},
+	"interest2": {
+		"interest": "novel",
+		"pic": "pic/interest2.png"
+	},
+	"interest3": {
+		"interest": "game",
+		"pic": "pic/interest3.png"
+	}
+}

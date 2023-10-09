@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+form{
+    font-size: 120%;
+    text-align: center;
+}
+legend{
+    
+    text-align: center;
+    font-size: 200%;
+}
+fieldset{
+    border-radius: 60%;
+    background-color: burlywood;
+}
